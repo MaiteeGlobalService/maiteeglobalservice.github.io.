@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAITEE.ng | Luxury Travel & Business Solutions</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0b1220;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,215,0,0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: gold;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1529070538774-1843cb3265df') center/cover no-repeat;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: gold;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e2e8f0;
+    max-width: 600px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* SECTION */
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    color: gold;
+    font-size: 28px;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,215,0,0.2);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: gold;
+}
+
+/* CONTACT */
+.contact {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,215,0,0.2);
+}
+
+.contact a {
+    color: gold;
+    text-decoration: none;
+}
+
+/* SOCIAL */
+.social a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid gold;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    background: gold;
+    color: black;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #94a3b8;
+    border-top: 1px solid rgba(255,215,0,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>MAITEE.ng</h1>
+<p>Luxury Travel • Admin Solutions • Wellness • Export Services</p>
+</header>
+
+<div class="hero">
+<h2>Travel. Trade. Thrive.</h2>
+<p>Your premium gateway to global travel, business support, wellness & export services.</p>
+<a class="btn" href="#services">Explore Services</a>
+</div>
+
+<!-- SERVICES -->
+<div class="section" id="services">
+<h2>Our Premium Services</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd">
+<h3>Flight & Hotel Booking</h3>
+<p>Luxury travel arrangements worldwide.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+<h3>Administrative Support</h3>
+<p>Executive virtual assistant & business solutions.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883">
+<h3>Wellness Services</h3>
+<p>Luxury wellness & lifestyle improvement coaching.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908177522-040fdbf4b5f7">
+<h3>Export Services</h3>
+<p>Premium export of Nigerian natural products worldwide.</p>
+</div>
+
+</div>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+<h2>Contact MAITEE.ng</h2>
+
+<div class="contact">
+
+<p>📧 Email: <a href="mailto:Maitee1348@gmail.com">Maitee1348@gmail.com</a></p>
+
+<p>📱 WhatsApp: <a href="https://wa.me/2349077526138">Chat Now</a></p>
+
+<div class="social">
+<a href="https://instagram.com/Maitee.ng" target="_blank">Instagram @Maitee.ng</a>
+<a href="https://facebook.com/Maitee.ng" target="_blank">Facebook @Maitee.ng</a>
+<a href="https://tiktok.com/@Maitee.ng" target="_blank">TikTok @Maitee.ng</a>
+</div>
+
+</div>
+</div>
+
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/2349077526138" target="_blank">
+💬 Chat
+</a>
+
+<footer>
+© 2026 MAITEE.ng | Luxury Travel & Business Solutions
+</footer>
+
+</body>
+</html>
